@@ -3,6 +3,8 @@
 
 ![Chrome Sandbox](/nosandbox.png?raw=true "Chrome Sandbox Page")
 
+## Page: [https://no-sandbox.io/](https://no-sandbox.io/)
+
 ## Project: [https://github.com/sickcodes/no-sandbox](https://github.com/sickcodes/no-sandbox)
 
 ## Twitter: [https://twitter.com/sickcodes](https://twitter.com/sickcodes)
@@ -74,4 +76,5 @@ Official Application List: [https://www.electronjs.org/apps](https://www.electro
 | [FB Messenger](https://www.messenger.com/desktop) | **DISABLED** | Electron | **Closed Source** | Windows | Any JS based exploit would lead to RCE. |
 | [Microsoft Teams](https://code.visualstudio.com/) | **DISABLED** | Electron | **Closed Source** | Windows, macOS | Untrusted VSCode extensions can execute malicious code on your computer. |
 | [Keybase](https://keybase.io/) | **DISABLED** | Electron | [https://github.com/keybase/client](https://github.com/keybase/client) | Windows, macOS, Linux | A JavaScript based exploit would lead to RCE |
+| [Discord](https://discord.com/) | **DISABLED** | Electron | **Closed Source** | Windows, macOS, Linux | Untrusted desktop application without source code. A JavaScript based exploit would lead to RCE |
 
