@@ -1,6 +1,8 @@
 # [No Sandbox](https://github.com/sickcodes/no-sandbox)
 ## *"Applications That Run Chromium Without The Sandbox"*
 
+![Chrome Sandbox](/nosandbox.png?raw=true "Chrome Sandbox Page")
+
 ## Project: [https://github.com/sickcodes/no-sandbox](https://github.com/sickcodes/no-sandbox)
 
 ## Twitter: [https://twitter.com/sickcodes](https://twitter.com/sickcodes)
