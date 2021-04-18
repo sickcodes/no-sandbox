@@ -31,7 +31,7 @@ Chrome: [https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=chrome](https://cve.mi
 
 Chromium: [https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=chromium](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=chromium)
 
-When the sanbox is **disabled** using the flag option `--no-sandbox`, websites or rendered pages can potentially execute malicious Javascript based exploits on your computer.
+When the sandbox is **disabled** using the flag option `--no-sandbox`, websites or rendered pages can potentially execute malicious Javascript based exploits on your computer.
 
 This exposes the user to Remote Code Execution (RCE) exploits that can execute arbitrary code on your computer.
 
