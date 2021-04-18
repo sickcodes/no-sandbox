@@ -67,14 +67,14 @@ Are we missing any apps? Please submit a Pull Request on the [sickcodes/no-sandb
 
 Official Application List: [https://www.electronjs.org/apps](https://www.electronjs.org/apps)
 
-| **App** | **Sandbox** | **Built With** | **Source** | **Desktop Platforms** | **Risks** | **Other** | 
+| **App** | **Sandbox** | **Built With** | **Source** | **Desktop Platforms** | **Risks** | **Other Examples** | 
 |---|---|---|---|---|---|---|
-| [Slack](https://slack.com/) | Enabled | Electron |**Closed Source** | Windows, macOS, Linux | Untrusted desktop application without source code, but sandbox enabled. |
+| [Slack](https://slack.com/) | Enabled | Electron |**Closed Source** | Windows, macOS, Linux | Untrusted desktop application without source code, but sandbox enabled. | [2020-09-28 XSS to HTML injection RCE](https://hackerone.com/reports/783877) |
 | [Twitch](https://twitch.com/) | **DISABLED** | Electron |**Closed Source** | Windows, macOS | Untrusted desktop application without source code |
-| [VSCode](https://code.visualstudio.com/) | **DISABLED** | Electron | [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode) | Windows, macOS, Linux | Untrusted VSCode extensions can execute malicious code on your computer. |
+| [VSCode](https://code.visualstudio.com/) | **DISABLED** | Electron | [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode) | Windows, macOS, Linux | Untrusted VSCode extensions can execute malicious code on your computer. | [ZDNet: Malicious extensions](https://www.zdnet.com/article/microsoft-releases-emergency-security-updates-for-windows-and-visual-studio/), [CVE-2020-17023 package.json RCE](https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17023), [CVE-2020-17022 Image based RCE](https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17022) |
 | [Signal](https://https://signal.org/) | **DISABLED** | Electron | [https://github.com/signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop) | Windows, macOS, Linux | A JavaScript based exploit would lead to RCE |
 | [FB Messenger](https://www.messenger.com/desktop) | **DISABLED** | Electron | **Closed Source** | Windows | Any JS based exploit would lead to RCE. |
-| [Microsoft Teams](https://code.visualstudio.com/) | **DISABLED** | Electron | **Closed Source** | Windows, macOS | Untrusted VSCode extensions can execute malicious code on your computer. |
+| [Microsoft Teams](https://code.visualstudio.com/) | **DISABLED** | Electron | **Closed Source** | Windows, macOS | Untrusted desktop application without source code. |
 | [Keybase](https://keybase.io/) | **DISABLED** | Electron | [https://github.com/keybase/client](https://github.com/keybase/client) | Windows, macOS, Linux | A JavaScript based exploit would lead to RCE |
 | [Discord](https://discord.com/) | **DISABLED** | Electron | **Closed Source** | Windows, macOS, Linux | Untrusted desktop application without source code. A JavaScript based exploit would lead to RCE |
 
